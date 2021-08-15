@@ -19,7 +19,6 @@ if (process.env.NODE_ENV !== 'PRODUCTION') require('dotenv').config({ path: 'bac
 
 // Connecting to database
 connectDatabase();
-
 // Setting up cloudinary configuration
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
