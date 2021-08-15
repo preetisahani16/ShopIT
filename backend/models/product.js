@@ -33,6 +33,7 @@ const productSchema = new mongoose.Schema({
             },
         }
     ],
+    
     category: {
         type: String,
         required: [true, 'Please select category for this product'],
