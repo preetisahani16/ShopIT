@@ -27,4 +27,5 @@ const Product = ({ product, col }) => {
     )
 }
 
+
 export default Product
